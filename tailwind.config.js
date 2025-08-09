@@ -34,22 +34,6 @@ export default withMT({
           },
         },
       },
-      animation: {
-        'marquee': 'marquee 15s linear infinite',
-      },
-     
-      backgroundColor: {
-        'custom-orange': '#a88a4a',
-        'pbrown': '#a88a4a',
-        'pbrown-50': '#e9ddcb',
-        'pbrown-60': '#c1a879',
-        'greey': '#F5FAFF',
-        'pblue': '#070229',
-        'transparent': 'transparent', 
-      },
-      textColor: {
-        'dblue': '#64748B',
-      },
       borderColor: {
         'neutral': '#d2bfbf',
       },

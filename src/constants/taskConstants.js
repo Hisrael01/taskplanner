@@ -1,37 +1,15 @@
-export const CATEGORIES = [
-  { name: 'Work', color: 'blue' },
-  { name: 'Personal', color: 'green' },
-  { name: 'Health', color: 'red' },
-  { name: 'Education', color: 'purple' },
-  { name: 'Social', color: 'yellow' },
+export const TASK_CATEGORIES = [
+  { name: 'To Do', color: 'blue', bgColor: 'blue.100', borderColor: 'blue.400' },
+  { name: 'In Progress', color: 'yellow', bgColor: 'yellow.100', borderColor: 'yellow.400' },
+  { name: 'Review', color: 'purple', bgColor: 'purple.100', borderColor: 'purple.400' },
+  { name: 'Completed', color: 'green', bgColor: 'green.100', borderColor: 'green.400' }
 ]
 
-export const PRIORITY_COLORS = {
-  low: 'green',
-  medium: 'yellow',
-  high: 'red'
-}
-
-export const PRIORITY_TASK_COLORS = {
-  low: {
-    light: 'green.50',
-    dark: 'green.900',
-    border: 'green.400',
-    text: 'green.800'
-  },
-  medium: {
-    light: 'yellow.50',
-    dark: 'yellow.900',
-    border: 'yellow.400',
-    text: 'yellow.800'
-  },
-  high: {
-    light: 'red.50',
-    dark: 'red.900',
-    border: 'red.400',
-    text: 'red.800'
-  }
-}
+export const TIME_RANGES = [
+  { value: '1week', label: 'Tasks within 1 week' },
+  { value: '2weeks', label: 'Tasks within 2 weeks' },
+  { value: '3weeks', label: 'Tasks within 3 weeks' }
+]
 
 export const MONTH_NAMES = [
   'January', 'February', 'March', 'April', 'May', 'June',

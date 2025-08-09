@@ -94,12 +94,6 @@ export const TaskListModal = ({
             })}
           </VStack>
         </ModalBody>
-        
-        {/* <ModalFooter py={3}>
-          <Button size="sm" onClick={onClose} width="full">
-            Close
-          </Button>
-        </ModalFooter> */}
       </ModalContent>
     </Modal>
   )
